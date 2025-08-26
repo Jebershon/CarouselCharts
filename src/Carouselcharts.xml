@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.carouselcharts.Carouselcharts" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Carouselcharts</name>
+    <description>Widget to Handle Charts in Carousel</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="data" type="expression" required="true">
+                <caption>JSON Data</caption>
+                <description>Expression that returns JSON array string.</description>
+                <returnType type="String"/>
+            </property>
+        </propertyGroup>
+        <propertyGroup caption="Animation">
+                <property key="animationDuration" type="integer" defaultValue="400">
+                    <caption>Animation Duration</caption>
+                    <description>Animation speed in ms, Default is 400</description>
+                </property>
+        </propertyGroup>
+    </properties>
+</widget>
