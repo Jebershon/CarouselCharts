@@ -55,8 +55,8 @@ function PieChart({ planName, totalAmount, utilizedAmount }) {
             {
                 name: "Amount",
                 data: [
-                    { name: "Utilized", y: utilizedAmount, color: "#dfe4e8" }, 
-                    { name: "Balance", y: balanceAmount, color: "#ec7237" } 
+                    { name: "Balance", y: balanceAmount, color: "#ec7237" },
+                    { name: "Utilized", y: utilizedAmount, color: "#dfe4e8" }
                 ]
             }
         ],
