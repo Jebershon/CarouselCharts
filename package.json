@@ -31,7 +31,8 @@
     "classnames": "^2.2.6",
     "highcharts": "^12.3.0",
     "highcharts-react-official": "^3.2.2",
-    "react-alice-carousel": "^2.9.1"
+    "react-alice-carousel": "^2.9.1",
+    "react-icons": "^5.5.0"
   },
   "resolutions": {
     "react": "^18.2.0",
